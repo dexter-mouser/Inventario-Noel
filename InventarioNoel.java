@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class InventarioNoel {
     public static void main(String[] args) {
         //
-        String[] inventario = {"Ducales", "Festival", "Tosh", null, null};
+        String[] inventario = {"ducales", "festival", "tosh", null, null};
         Scanner leer = new Scanner(System.in);
         int opcion = 0;
         //
@@ -26,6 +26,11 @@ public class InventarioNoel {
                         }
                     }
                     break;
+                case 2:
+                    System.out.printl("Nombre del producto a buscar:  ");
+                    System.out.printl("(Todo en minuscula y sin caracteres especiales)")
+                case 3:
+                case 4:
             }
         }
     }
